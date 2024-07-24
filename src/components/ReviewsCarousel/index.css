@@ -1,0 +1,86 @@
+/* Write your code here */
+.app-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: roboto;
+}
+.heading {
+  font-size: 30px;
+  color: #fff;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  height: 150px;
+  width: 150px;
+}
+.toggle-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.arrow {
+  height: 25px;
+  width: 25px;
+  margin: 20px;
+}
+.button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+.name {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.companyName {
+  font-size: 13px;
+}
+.description {
+  font-size: 15px;
+  text-align: center;
+  margin: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 45px;
+  }
+  .image {
+    height: 250px;
+    width: 250px;
+  }
+  .arrow {
+    height: 35px;
+    width: 35px;
+  }
+  .name {
+    font-size: 30px;
+  }
+  .companyName {
+    font-size: 23px;
+  }
+  .description {
+    font-size: 25px;
+    margin: 45px;
+  }
+}
